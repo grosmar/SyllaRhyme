@@ -1,14 +1,6 @@
-var assert = require( 'assert' );
-var SyllaRhyme = require( '../index.js' );
+import assert from 'assert';
+import { syllarhyme }  from '../index.js';
 
-var syllarhyme;
-
-before( function( done ) {
-    this.enableTimeouts( false );
-    syllarhyme = SyllaRhyme( function( sr ) {
-        done();
-    } );
-});
 
 describe( 'SyllaRhyme', function() {
 

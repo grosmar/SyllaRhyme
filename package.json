@@ -3,9 +3,7 @@
   "version": "1.0.1",
   "description": "Counts syllables and rhymes words.",
   "main": "index.js",
-  "files": [
-    "dictionaries"
-  ],
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
@@ -18,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tariqksoliman/SyllaRhyme/issues"
   },
-  "homepage": "https://github.com/tariqksoliman/SyllaRhyme#readme"
+  "homepage": "https://github.com/tariqksoliman/SyllaRhyme#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
 }
